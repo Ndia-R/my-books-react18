@@ -1,0 +1,51 @@
+{
+  // globals.cssの「@tailwind」の警告の波線を消す
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // ミニマップを非表示にする
+  "editor.minimap.enabled": false,
+
+  // 制御文字を表示する
+  "editor.renderControlCharacters": true,
+
+  // デフォルトのフォーマット指定
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ファイル保存時にフォーマット
+  "editor.formatOnSave": true,
+
+  // ファイル保存時
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit" // 未使用のimport文を削除し、import文の順番を並べ替え
+  },
+
+  // 改行コードの規定値
+  "files.eol": "\n",
+
+  // ファイル保存時に行末に改行を挿入
+  "files.insertFinalNewline": true,
+
+  // ファイル保存時に最終行以降の空行を削除
+  "files.trimFinalNewlines": true,
+
+  // ファイル保存時に各行の末尾にある半角スペースを削除
+  "files.trimTrailingWhitespace": true,
+
+  // 絶対パスでAuto Importを行う（tsconfig.jsonに構成されているbseUrlまたはpathsに基づいて非相対インポートを優先）
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  // スペルチェックの対象外にするワード
+  "cSpell.words": [
+    "clsx",
+    "Devcontainer",
+    "disp",
+    "lucide",
+    "shadcn",
+    "tailwindcss",
+    "zenkaku"
+  ],
+  // スペルチェックの対象外にするファイル
+  "cSpell.files": ["devcontainer.json"]
+}
